@@ -22,7 +22,7 @@ main {
   float: left;
   width: 50%;
   background-color: LightPink;
-  outline-style: dotted;
+  outline: 3.5px dashed;
 }
 
 p {

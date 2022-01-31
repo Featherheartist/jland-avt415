@@ -1,0 +1,90 @@
+body {
+  background-color: #cae7df;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 200%;
+  margin: 50px;
+}
+
+header {
+  width: 75%;
+  margin: 10px auto;
+}
+
+main {
+  width: 100%;
+  margin: 25px auto;
+  display: flow-root;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  background-color: #F4ABAA;
+  outline-style: dotted;
+}
+
+p {
+  font-family: Century Gothic,sans-serif;
+  color: white;
+  font-size: 50%;
+}
+
+h1 {
+  color: #F4ABAA;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+  font-size: 175%;
+}
+
+h2 {
+  color: honeydew;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+  font-size: 100%;
+  margin-top: 15px;
+}
+
+li {
+  font-family: Century Gothic,sans-serif;
+  color: white;
+  font-size: 50%;
+  list-style-type: none;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: Honeydew;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+}
+
+a:visited {
+  color: #dcefea;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+
+}
+
+a:hover {
+  color: #95cfbf;
+  font-family: Century Gothic, sans-serif;
+  text-align: center;
+  font-style: italic;
+
+}
+
+@media screen and (max-width: 745px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 100%;
+  }
+  p {
+    width: 100%;
+  }
+ }

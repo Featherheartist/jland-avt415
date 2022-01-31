@@ -1,5 +1,5 @@
 body {
-  background-color: #cae7df;
+  background-color: PowderBlue;
   color: white;
   font-family: 'Amatic SC', cursive;
   text-align: center;
@@ -21,7 +21,7 @@ main {
 .col {
   float: left;
   width: 50%;
-  background-color: #F4ABAA;
+  background-color: LightPink;
   outline-style: dotted;
 }
 
@@ -32,18 +32,24 @@ p {
 }
 
 h1 {
-  color: #F4ABAA;
+  color: MediumTurquoise;
   font-family: Century Gothic,sans-serif;
   text-align: center;
   font-size: 175%;
 }
 
 h2 {
-  color: honeydew;
+  color: LavenderBlush;
   font-family: Century Gothic,sans-serif;
   text-align: center;
   font-size: 100%;
   margin-top: 15px;
+}
+
+h3 {
+  font-family: Century Gothic,sans-serif;
+  color: LightCyan;
+  font-size: 50%;
 }
 
 li {
@@ -56,23 +62,23 @@ li {
 }
 
 a {
-  color: Honeydew;
+  color: MistyRose;
   font-family: Century Gothic,sans-serif;
   text-align: center;
 }
 
 a:visited {
-  color: #dcefea;
+  color: Lavender;
   font-family: Century Gothic,sans-serif;
   text-align: center;
 
 }
 
 a:hover {
-  color: #95cfbf;
+  color: LavenderBlush;
   font-family: Century Gothic, sans-serif;
   text-align: center;
-  font-style: italic;
+  font-style: bold;
 
 }
 

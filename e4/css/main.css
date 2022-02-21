@@ -1,0 +1,43 @@
+body {
+  background-color: #FF8896;
+  margin: 0;
+  font-size: 40px;
+  font-family: 'Redressed', cursive;
+}
+p {
+  color: #FFDEE3;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
+}
+.bigger {
+  font-size: 2.5em;
+}
+div {
+  margin-top: 40vh;
+}
+.mobile-only {
+  display: none;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #FF3334;
+  }
+  p {
+    color: #FFBBC1;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
